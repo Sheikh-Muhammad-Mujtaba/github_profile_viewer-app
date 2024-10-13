@@ -101,7 +101,7 @@ export default function GitHubProfileViewer() {
   const chartOptions = {
     plugins: {
         legend: {
-            onClick: null, 
+            onClick: undefined, 
         },
     },
 };
